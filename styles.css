@@ -12,6 +12,24 @@
   --max: 1100px;
 }
 
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.1;
+}
+
+.brand-text strong {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.brand-tagline {
+  font-size: 0.7rem;
+  opacity: 0.75;
+  margin-top: 2px;
+}
+
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
