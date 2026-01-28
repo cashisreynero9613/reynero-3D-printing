@@ -38,6 +38,40 @@
   display: block;
 }
 
+/* --- Brand lockup (Word-style) --- */
+.brand-lockup { align-items: flex-start; }
+
+.brand-text{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  line-height:1.05;
+}
+
+.brand-name{
+  /* Tries Niagara Engraved first; falls back if visitor doesn't have it */
+  font-family: "Niagara Engraved", "Bodoni MT", "Didot", "Times New Roman", serif;
+  font-size: 1.35rem;
+  letter-spacing: 0.5px;
+  font-weight: 400; /* engraved fonts usually don't want bold */
+}
+
+.brand-rule{
+  width: 260px;              /* adjust length here */
+  height: 2px;               /* adjust thickness here */
+  background: var(--accent); /* uses your purple accent */
+  opacity: 0.85;
+  margin: 8px 0 10px;
+  border-radius: 999px;
+}
+
+.brand-tagline{
+  font-family: "Baskerville Old Face", "Baskerville", "Georgia", "Times New Roman", serif;
+  font-size: 1.05rem;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
