@@ -57,8 +57,8 @@
 }
 
 .brand-rule{
-  width: 260px;              /* adjust length here */
-  height: 2px;               /* adjust thickness here */
+  width: 400px;              /* adjust length here */
+  height: 10px;               /* adjust thickness here */
   background: var(--accent); /* uses your purple accent */
   opacity: 0.85;
   margin: 8px 0 10px;
